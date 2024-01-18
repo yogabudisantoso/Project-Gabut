@@ -1,0 +1,322 @@
+body {
+    overflow: hidden;
+}
+
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    height: 91vh; /* Menambahkan tinggi 100vh untuk mengisi tinggi layar */
+    scale: 80%;
+
+}
+
+.desktop .overlap-group-wrapper {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 953px;
+    display: flex;
+    align-items: center; /* Menambahkan properti align-items */
+    justify-content: center; /* Menambahkan properti justify-content */
+}
+
+.desktop .overlap-group {
+    position: relative;
+    width: 1385px;
+    height: 953px;
+    top: 35px;
+    left: 20px;
+}
+
+.desktop .rectangle {
+    position: absolute;
+    width: 87%;
+    height: 953px;
+    top: 0;
+    right: 25rem;
+    background-color: #91b3f9;
+    border-radius: 50px;
+}
+
+.desktop .div {
+    position: absolute;
+    width: 540px;
+    height: 801px;
+    top: 60px;
+    left: 845px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #91b3f9;
+}
+
+.desktop .vector {
+    position: absolute;
+    width: 800px;
+    height: 550px;
+    top: 250px;
+    /* left: 10px; */
+    right: 50%;
+}
+
+.desktop .img {
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    top: 250px;
+    /* left: 10px; */
+}
+
+.desktop .element {
+    position: absolute;
+    width: 850px;
+    height: 580px;
+    top: 250px;
+    right: 50%;
+    /* left: 1; */
+    object-fit: cover;
+}
+
+.desktop .frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 37px;
+    position: absolute;
+    top: 306px;
+    left: 956px;
+}
+
+.desktop .frame-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.desktop .vector-2 {
+    position: relative;
+    width: 24.42px;
+    height: 30px;
+}
+
+.desktop .div-wrapper {
+    display: flex;
+    width: 285px;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px 0px;
+    position: relative;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #8c8c8c;
+}
+
+.desktop .div-wrapper input {
+    width: 100%;
+    border: none;
+    padding-bottom: 10px;
+    outline: none;
+}
+
+.desktop .frame-2 input {
+    width: 100%;
+    border: none;
+    padding-bottom: 10px;
+    outline: none;
+}
+
+.desktop .frame-4 input {
+    width: 100%;
+    border: none;
+    padding-bottom: 10px;
+    outline: none;
+}
+
+.desktop .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--med-16-font-family);
+    font-weight: var(--med-16-font-weight);
+    color: #8c8c8c;
+    font-size: var(--med-16-font-size);
+    letter-spacing: var(--med-16-letter-spacing);
+    line-height: var(--med-16-line-height);
+    font-style: var(--med-16-font-style);
+}
+
+.desktop .vector-3 {
+    position: relative;
+    width: 28px;
+    height: 20px;
+}
+
+.desktop .frame-3 {
+    width: 284px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px 0px;
+    position: relative;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #8c8c8c;
+}
+
+.desktop .frame-4 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.desktop .group {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-left: -1px;
+}
+
+.desktop .frame-5 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px 0px;
+    position: relative;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #8c8c8c;
+}
+
+.desktop .text-wrapper-2 {
+    position: absolute;
+    top: 150px;
+    left: 1021px;
+    font-family: var(--bold-32-font-family);
+    font-weight: var(--bold-32-font-weight);
+    color: #535bf2;
+    font-size: var(--bold-32-font-size);
+    letter-spacing: var(--bold-32-letter-spacing);
+    line-height: var(--bold-32-line-height);
+    font-style: var(--bold-32-font-style);
+}
+
+.desktop .text {
+    position: absolute;
+    top: 243px;
+    left: 1024px;
+    font-family: var(--bold-32-font-family);
+    font-weight: var(--bold-32-font-weight);
+    color: #000000;
+    font-size: var(--bold-32-font-size);
+    letter-spacing: var(--bold-32-letter-spacing);
+    line-height: var(--bold-32-line-height);
+    font-style: var(--bold-32-font-style);
+}
+
+.desktop .p {
+    position: absolute;
+    width: 307px;
+    top: 205px;
+    left: 952px;
+    font-family: var(--med-16-font-family);
+    font-weight: var(--med-16-font-weight);
+    color: #8c8c8c;
+    font-size: var(--med-16-font-size);
+    text-align: center;
+    letter-spacing: var(--med-16-letter-spacing);
+    line-height: var(--med-16-line-height);
+    font-style: var(--med-16-font-style);
+}
+
+.desktop .text-2 {
+    position: absolute;
+    top: 533px;
+    left: 1049px;
+    font-family: var(--med-16-font-family);
+    font-weight: var(--med-16-font-weight);
+    color: #000000;
+    font-size: var(--med-16-font-size);
+    letter-spacing: var(--med-16-letter-spacing);
+    line-height: var(--med-16-line-height);
+    font-style: var(--med-16-font-style);
+}
+
+.desktop .frame-6 {
+    display: flex;
+    width: 211px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 565px;
+    left: 1010px;
+    background-color: #5259f2;
+    border-radius: 50px;
+}
+
+.desktop .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--med-16-font-family);
+    font-weight: var(--med-16-font-weight);
+    color: #ffffff;
+    font-size: var(--med-16-font-size);
+    letter-spacing: var(--med-16-letter-spacing);
+    line-height: var(--med-16-line-height);
+    font-style: var(--med-16-font-style);
+}
+
+.desktop .frame-7 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 6px;
+    position: absolute;
+    top: 678px;
+    left: 1003px;
+}
+
+.desktop .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--med-16-font-family);
+    font-weight: var(--med-16-font-weight);
+    color: #5259f2;
+    font-size: var(--med-16-font-size);
+    letter-spacing: var(--med-16-letter-spacing);
+    line-height: var(--med-16-line-height);
+    font-style: var(--med-16-font-style);
+}
+
+.desktop .donation-box {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    top: 700px;
+    left: 741px;
+    object-fit: cover;
+}
+
+.desktop .frame-7 .text-wrapper-4 a{
+    text-decoration: none;
+}
+
+.for-login{
+    font-size: 25px;
+}
+
+.desktop .frame-6 a {
+    text-decoration: none;
+}

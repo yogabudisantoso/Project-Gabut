@@ -1,0 +1,476 @@
+body {
+  overflow: hidden;
+}
+
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; /* Menambahkan properti align-items */
+  height: 91vh; /* Menambahkan tinggi 100vh untuk mengisi tinggi layar */
+  scale: 80%;
+}
+
+.desktop .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 953px;
+  display: flex;
+  align-items: center; /* Menambahkan properti align-items */
+  justify-content: center; /* Menambahkan properti justify-content */
+}
+
+.desktop .overlap-group {
+  position: relative;
+  width: 1361px;
+  height: 953px;
+  top: 35px;
+  left: 33px;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  width: 81%;
+  height: 953px;
+  top: 0;
+  left: 408px;
+  background-color: #ff7569;
+  border-radius: 50px;
+}
+
+.desktop .div {
+  position: absolute;
+  width: 540px;
+  height: 801px;
+  top: 60px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: 1px solid;
+  border-color: #ff7569;
+}
+
+.desktop .vector {
+  position: absolute;
+  width: 370px;
+  height: 453px;
+  top: 332px;
+  left: 604px;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 693px;
+  height: 508px;
+  top: 299px;
+  left: 568px;
+}
+
+.desktop .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 37px;
+  position: absolute;
+  top: 25%;
+  left: 1.5%;
+  /* background-color: green; */
+}
+
+.desktop .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .vector-2 {
+  position: relative;
+  width: 28px;
+  height: 20px;
+}
+
+.desktop .div-wrapper {
+  display: flex;
+  width: 285px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0px 0px;
+  position: relative;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #8c8c8c;
+}
+
+.desktop .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--med-16-font-family);
+  font-weight: var(--med-16-font-weight);
+  color: #8c8c8c;
+  font-size: var(--med-16-font-size);
+  letter-spacing: var(--med-16-letter-spacing);
+  line-height: var(--med-16-line-height);
+  font-style: var(--med-16-font-style);
+}
+
+.desktop .vector-3 {
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+
+.desktop .frame-3 {
+  display: flex;
+  width: 284px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px 0px;
+  position: relative;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #8c8c8c;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  top: 150px;
+  left: 227px;
+  font-family: var(--bold-32-font-family);
+  font-weight: var(--bold-32-font-weight);
+  color: #fe7d71;
+  font-size: var(--bold-32-font-size);
+  letter-spacing: var(--bold-32-letter-spacing);
+  line-height: var(--bold-32-line-height);
+  font-style: var(--bold-32-font-style);
+}
+
+.desktop .frame-4 {
+  position: absolute;
+  width: 121px;
+  height: 48px;
+  top: 609px;
+  left: 208px;
+}
+
+.desktop .text {
+  position: absolute;
+  top: 243px;
+  left: 179px;
+  font-family: var(--bold-32-font-family);
+  font-weight: var(--bold-32-font-weight);
+  color: #000000;
+  font-size: var(--bold-32-font-size);
+  letter-spacing: var(--bold-32-letter-spacing);
+  line-height: var(--bold-32-line-height);
+  font-style: var(--bold-32-font-style);
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  width: 307px;
+  top: 209px;
+  left: 117px;
+  font-family: var(--med-16-font-family);
+  font-weight: var(--med-16-font-weight);
+  color: #8c8c8c;
+  font-size: var(--med-16-font-size);
+  text-align: center;
+  letter-spacing: var(--med-16-letter-spacing);
+  line-height: var(--med-16-line-height);
+  font-style: var(--med-16-font-style);
+}
+
+.desktop .text-2 {
+  position: absolute;
+  top: 533px;
+  left: 204px;
+  font-family: var(--med-16-font-family);
+  font-weight: var(--med-16-font-weight);
+  color: #000000;
+  font-size: var(--med-16-font-size);
+  letter-spacing: var(--med-16-letter-spacing);
+  line-height: var(--med-16-line-height);
+  font-style: var(--med-16-font-style);
+}
+
+.desktop .frame-5 {
+  display: flex;
+  width: 65%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  /* left: 165px; */
+  background-color: #5259f2;
+  border-radius: 50px;
+}
+
+.desktop .button a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.button {
+  /* background-color: red; */
+  width: 70%;
+  display: flex;
+  margin-top: 1%;
+}
+
+.desktop .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--med-16-font-family);
+  font-weight: var(--med-16-font-weight);
+  color: #ffffff;
+  font-size: var(--med-16-font-size);
+  letter-spacing: var(--med-16-letter-spacing);
+  line-height: var(--med-16-line-height);
+  font-style: var(--med-16-font-style);
+}
+
+.desktop .text-wrapper-5 {
+  position: absolute;
+  top: 557px;
+  left: 257px;
+  font-family: var(--med-11-font-family);
+  font-weight: var(--med-11-font-weight);
+  color: #000000;
+  font-size: var(--med-11-font-size);
+  letter-spacing: var(--med-11-letter-spacing);
+  line-height: var(--med-11-line-height);
+  font-style: var(--med-11-font-style);
+}
+
+.desktop .frame-6 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+  top: 795px;
+  left: 136px;
+}
+
+.desktop .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--med-16-font-family);
+  font-weight: var(--med-16-font-weight);
+  color: #5259f2;
+  font-size: var(--med-16-font-size);
+  letter-spacing: var(--med-16-letter-spacing);
+  line-height: var(--med-16-line-height);
+  font-style: var(--med-16-font-style);
+}
+
+.desktop .text-wrapper-6 a {
+  text-decoration: none;
+}
+
+.desktop .donation-box {
+  position: absolute;
+  width: 170px;
+  height: 161px;
+  top: 749px;
+  left: 455px;
+  object-fit: cover;
+}
+
+.desktop .donation {
+  position: absolute;
+  width: 798px;
+  height: 532px;
+  top: 328px;
+  left: 540px;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-5 {
+  display: flex;
+  /* background-color: black; */
+  /* width: 500px; */
+  /* height: 45%; */
+  justify-content: center;
+  align-items: center;
+  left: 2%;
+  /* top:40%; */
+  z-index: 1;
+}
+
+.desktop .text-wrapper-5 .text-wrappers {
+  /* background-color: blue; */
+  width: 500px;
+}
+
+/* Tambahkan ini pada file style-login.css atau file CSS yang sesuai */
+.social-icons {
+  display: flex;
+  justify-content: center; /* Memusatkan secara horizontal */
+  align-items: center; /* Memusatkan secara vertikal */
+  z-index: 10px;
+  /* background-color: green; */
+  /* right : 1000px; */
+}
+
+/* Optional: Jika ingin memberikan jarak antara ikon Google dan Facebook */
+.social-icons img {
+  margin: 0 10px; /* Sesuaikan nilai margin sesuai kebutuhan */
+  /* background-color: red; */
+}
+
+.login-1 {
+  /* background-color: red; */
+  width: 500px;
+  /* height: 10vh; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0px 0px 50px 0px;
+}
+
+input {
+  /* border: none; */
+  outline: none;
+  width: 100%;
+}
+
+.frame {
+  position: flex;
+  width: 500px;
+  height: 50%;
+  /* background-color: blue;  */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex: center;
+  margin: auto; /* Menambahkan margin: auto untuk memposisikan ke tengah */
+}
+
+.frame .input-field {
+  width: 100%;
+  /* background-color:green; */
+  justify-content: center;
+  align-items: center;
+}
+
+.frame .input-field input {
+  width: 50%;
+  border: none;
+  outline: none;
+  /* border: solid; */
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  padding: 15px;
+  /* background-color: green; */
+  margin: 1%;
+  /* display: flex; */
+}
+
+.frame .button input {
+  /* width: 100%; */
+  margin-top: 3rem;
+  width: 15rem;
+  border: none;
+  outline: none;
+  /* border: solid; */
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  padding: 15px;
+  border-radius: 50px;
+  z-index: 5;
+  /* background-color: red; */
+  /* display: relative;  */
+}
+
+.frame input {
+  /* display: relative; */
+  width: 90%;
+  padding: 10px;
+  /* background-color : blue; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.frame-2 {
+  /* background-color: blue; */
+  /* display: relative; */
+  width: 100%;
+  height: 50%;
+  text-align: center; /* Tambahkan text-align: center untuk memusatkan teks */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.for-login {
+  font-size: 25px;
+  /* background-color: red; */
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: -2%;
+  margin-top: 15px; /* Menambahkan margin-top agar tidak terlalu dekat dengan elemen sebelumnya */
+}
+
+/* .desktop .pass {
+    background-color: red;
+    display: flex;
+    width: 285px;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 0px 0px;
+    position: relative;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #8c8c8c;  
+    padding: 10px;
+  } */
+
+/* .desktop .mail {
+    background-color: red;
+  } */
+
+/* .desktop .frame3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    flex: 0 0 auto;
+    padding: 0px 5px 0px;
+
+    background-color:red;
+    pointer-events: none;
+  } */
+
+/* .toggle-password {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+  } */
+
+/* .eye-icon {
+    width: 15px;
+    height: 15px;
+  } */
